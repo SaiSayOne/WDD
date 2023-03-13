@@ -1,0 +1,73 @@
+.bg-custom{
+    background-color: black;
+     
+}
+
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link{
+    color: white !important;
+    font-weight: 500 !important;
+}
+
+.btn-custom{
+    background-color: #E50914 !important;
+    font-weight: 800 !important;
+    color:black !important;
+     
+}
+
+.btn-collection{
+     
+    max-width: 241px;
+    margin:  2em auto;
+}
+
+.img-card{
+    margin: 5px 0px;
+    transition: .1s;
+}
+.img-card:hover{
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.btn-collection-playing{
+     
+    max-width: 110px;
+    margin:  2em auto;
+}
+button {
+    background-color: #E50914;
+    border: 1px solid #E50914;
+    padding: .6em 2em;
+    border-radius: 10px;
+    font-size: 1em;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  button:hover, button:focus, button:active {
+    /* swap colors */
+    color: #0a0000;
+    background-color: #800505;
+    cursor: pointer; /* displays a hand */
+  }
+  .column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  .row::after{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
